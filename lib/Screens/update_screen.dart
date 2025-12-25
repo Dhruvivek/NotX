@@ -36,10 +36,11 @@ class _UpdateScreenState extends State<UpdateScreen> {
         title: Text('Update Note'),
         backgroundColor: Colors.orangeAccent,
         actions: [
-          IconButton(onPressed: () {
+          IconButton(onPressed: () async{
             widget.notes!.title = _title.text.toString();
             widget.notes!.description = _des.text.toString();
             widget.notes!.updatedAt = now;
+            await widget.notes!.save();
 
             ScaffoldMessenger.of(context).showSnackBar(SnackBar(content: Text("${widget.notes!.title} updated")));
             Navigator.pop(context);
