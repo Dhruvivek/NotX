@@ -1,20 +1,39 @@
-📝 NotX – Flutter Notes App
+# 📱 NotX – A Simple Notes App in Flutter
 
-NotX is a simple and efficient Flutter notes application that allows users to create, edit, and delete notes with persistent local storage using Hive.
-This project was built as my first Flutter project while learning app development and local databases.
+NotX is a minimal and fast notes application built using **Flutter** with **Hive** as a local database.  
+It is currently in the *CRUD* stage and will be upgraded step by step with more powerful features.
+
+This project is part of my journey to strengthen my Flutter skills and understand efficient local data storage.
 
 ---
 
-🚀 Features
+## 🚀 Features (Current)
+- ✍️ Create notes  
+- 📖 Read notes  
+- ✏️ Update notes  
+- 🗑️ Delete notes  
+- ⚡ Fast local storage using Hive  
+- 🎨 Clean and simple UI  
 
-➕ Add new notes
+---
 
-✏️ Edit existing notes
+## 🛠 Tech Stack
+- **Flutter** – App framework  
+- **Dart** – Programming language  
+- **Hive** – Lightweight & blazing-fast local database  
 
-🗑 Delete notes
+---
 
-💾 Persistent local storage using Hive
+## 🔮 Upcoming Features
+- 🎨 Background customization (themes & colors)  
+- 🎙️ Voice notes support  
+- 🖼 UI personalization  
+- 🔍 Search and filter notes  
+- ☁️ Optional cloud backup  
 
-📱 Simple and clean user interface
+---
 
-⚡ Fast performance (offline-first)
+## 📸 Screenshots
+
+![Home Screen](screenshots/home.jpeg)
+![Add and Update Note Screen](screenshots/note.jpeg)
