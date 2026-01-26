@@ -1,21 +1,20 @@
-<<<<<<< HEAD
-# NotX
-A simple Flutter notes app with create, edit, and delete functionality using local storage (Hive).
-=======
-# notx
+📝 NotX – Flutter Notes App
 
-A new Flutter project.
+NotX is a simple and efficient Flutter notes application that allows users to create, edit, and delete notes with persistent local storage using Hive.
+This project was built as my first Flutter project while learning app development and local databases.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+🚀 Features
 
-A few resources to get you started if this is your first Flutter project:
+➕ Add new notes
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+✏️ Edit existing notes
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
->>>>>>> d473ca6 (Initial commit - Flutter Notes App NotX)
+🗑 Delete notes
+
+💾 Persistent local storage using Hive
+
+📱 Simple and clean user interface
+
+⚡ Fast performance (offline-first)
